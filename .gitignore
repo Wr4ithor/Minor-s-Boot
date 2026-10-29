@@ -1,0 +1,10 @@
+# Virtual Environment
+.venv
+
+# Environment variables
+.env
+
+# MSB Specific
+runs/
+storage/
+dataset/

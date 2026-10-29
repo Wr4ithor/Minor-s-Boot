@@ -1,0 +1,19 @@
+[project]
+name = "msb"
+version = "0.1.0"
+description ="A CCU entry generator model trained on vanilla RNN"
+readme = "README.md"
+authors = [
+    { name = "Wr4ithor", email = "ditsonditto0@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "numpy"
+]
+
+[project.scripts]
+msb = "msb:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
